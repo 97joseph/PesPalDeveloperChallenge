@@ -39,7 +39,7 @@ We define plagiarism as the attempt to pass off another's work as one's own. If 
 
 Use of ChatGPT and such tools is by no means prohibited, but you should indicate where and how you have relied on them. Also, keep in mind that everyone has access to these tools, so don't expect to impress us with five minutes of work!
 
-##Problem 0: A computer.
+## Problem 0: A computer.
 Below is the instruction set for a machine:
 0x00   halt -- Terminate program
 
@@ -111,20 +111,20 @@ loop:
 Programs should be loaded from 0x0000CFFF to the end of memory so that any memory before that is usable by the programmer.
 The simulator should log the register values after every cycle (upon execution of every instruction).
 
-##Problem 1: A static-site generator.
+## Problem 1: A static-site generator.
 
 Design and implement a simple static-site generator. 
 
 It should be able to take a folder containing Markdown (or another non-HTML markup-type format) pages and produce a website. There should be support for a homepage, articles and supporting pages (e.g. an about page and some error pages).
 
-Problem 2: A diff and a patch.
+## Problem 2: A diff and a patch.
 The Unix tools diff and patch work in such a way that one can run a diff between file A and file B, and then use patch with the output of the diff and file A to produce file B.
 
 Write a pair of programs, a diff and and a patch, which allow one to do this same operation, to compare two files and use the output and one of the files to produce the other file. Write them to work on the shell similarly to the POSIX manual descriptions (linked above), but you have freedom in terms of the algorithms used and the nature of the actual diff output. 
 
 When your diff application is run on two files, it should be possible to use either file together with the diff output to produce the other. (Don't write a silly concatenating diff which simply concatenates the two files. We should be able to see that the diff output is actually the differences between the files.)
 
-##Problem 3: A distributed system.
+## Problem 3: A distributed system.
 
 Build a TCP server that can accept and hold a maximum of N clients (where N is configurable).
 These clients are assigned ranks based on first-come-first-serve, i.e whoever connects first receives the next available high rank. Ranks are from 0–N, 0 being the highest rank.
@@ -133,7 +133,7 @@ Clients can send to the server commands that the server distributes among the cl
 
 If a client disconnects the server should re-adjust the ranks and promote any client that needs to be promoted not to leave any gaps in the ranks.
 
-##Problem 4: A Boolean logic interpreter.
+## Problem 4: A Boolean logic interpreter.
 
 Write a Boolean logic interpreter that can evaluate simple expressions, for example:
 λ> T ∨ F
@@ -159,12 +159,12 @@ The exact syntax and scope is yours to decide on, but be sure to include support
 
 Describe the syntax (and operator precedence rules) in your documentation with some examples.
 
-Submitting.
+## Submitting.
 
 To submit your application place it in a public repository (GitHub, GitLab, BitBucket, SourceHut etc.) and link to it in the application form on this page.
 Be sure to document in README.md, as usual. For more information, see the following articles:
 
-About READMEs — GitHub Docs
+## About READMEs — GitHub Docs
 
 Writing on GitHub — GitHub Docs
 
