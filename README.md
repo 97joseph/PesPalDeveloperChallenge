@@ -1,7 +1,7 @@
 # PesPalDeveloperChallenge
  PesaPal Developer Challenge Solution
  
- The Pesapal Developer Challenge
+## The Pesapal Developer Challenge
 
 
 We are looking for the most talented, young developers in the region. If you are a skilled programmer with a love for computing, Pesapal might be the place for you.
@@ -13,12 +13,17 @@ But beware and be-warned, our work is difficult. You will be expected to work at
 The Ideal Candidate.
 
 Formal training in a relevant field (computer science, engineering, etc.) is not required. We do require, however, that
+
 You love programming and computing
+
 You are willing to work with others
+
 You deliver within predictable timelines
+
 You can write well.
 
 The Problems.
+
 We are doing a problem-oriented assessment to make our analysis as objective as possible. Choose (at least) one of the below problems and attempt to solve it. 
 
 It is better to provide a thorough, elegant solution to one of the problems than it is to provide four or five poor solutions. Our aim in providing five is not to burden you with them, but to give you the flexibility to show your skills as best as you can. Also, we are not as interested in complete solutions (although these definitely help!) as we are in clear thinking and evidence of determination. For this reason we are willing to accept a well-documented attempt if you are unable to complete your implementation before the deadline.
@@ -34,7 +39,7 @@ We define plagiarism as the attempt to pass off another's work as one's own. If 
 
 Use of ChatGPT and such tools is by no means prohibited, but you should indicate where and how you have relied on them. Also, keep in mind that everyone has access to these tools, so don't expect to impress us with five minutes of work!
 
-Problem 0: A computer.
+##Problem 0: A computer.
 Below is the instruction set for a machine:
 0x00   halt -- Terminate program
 
@@ -106,7 +111,8 @@ loop:
 Programs should be loaded from 0x0000CFFF to the end of memory so that any memory before that is usable by the programmer.
 The simulator should log the register values after every cycle (upon execution of every instruction).
 
-Problem 1: A static-site generator.
+##Problem 1: A static-site generator.
+
 Design and implement a simple static-site generator. 
 
 It should be able to take a folder containing Markdown (or another non-HTML markup-type format) pages and produce a website. There should be support for a homepage, articles and supporting pages (e.g. an about page and some error pages).
@@ -118,7 +124,8 @@ Write a pair of programs, a diff and and a patch, which allow one to do this sam
 
 When your diff application is run on two files, it should be possible to use either file together with the diff output to produce the other. (Don't write a silly concatenating diff which simply concatenates the two files. We should be able to see that the diff output is actually the differences between the files.)
 
-Problem 3: A distributed system.
+##Problem 3: A distributed system.
+
 Build a TCP server that can accept and hold a maximum of N clients (where N is configurable).
 These clients are assigned ranks based on first-come-first-serve, i.e whoever connects first receives the next available high rank. Ranks are from 0–N, 0 being the highest rank.
 
@@ -126,7 +133,8 @@ Clients can send to the server commands that the server distributes among the cl
 
 If a client disconnects the server should re-adjust the ranks and promote any client that needs to be promoted not to leave any gaps in the ranks.
 
-Problem 4: A Boolean logic interpreter.
+##Problem 4: A Boolean logic interpreter.
+
 Write a Boolean logic interpreter that can evaluate simple expressions, for example:
 λ> T ∨ F
 T
@@ -152,11 +160,14 @@ The exact syntax and scope is yours to decide on, but be sure to include support
 Describe the syntax (and operator precedence rules) in your documentation with some examples.
 
 Submitting.
+
 To submit your application place it in a public repository (GitHub, GitLab, BitBucket, SourceHut etc.) and link to it in the application form on this page.
 Be sure to document in README.md, as usual. For more information, see the following articles:
 
 About READMEs — GitHub Docs
+
 Writing on GitHub — GitHub Docs
+
 How to Write a Good README File for Your GitHub Project — Hillary Nyakundi
 
 If any of the problem statements, or indeed anything in this job prompt, is unclear, feel free to reach us at jdev@pesapal.com.
