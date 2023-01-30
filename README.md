@@ -10,7 +10,7 @@ But beware and be-warned, our work is difficult. You will be expected to work at
 
 
 
-The Ideal Candidate.
+## The Ideal Candidate.
 
 Formal training in a relevant field (computer science, engineering, etc.) is not required. We do require, however, that
 
@@ -22,7 +22,7 @@ You deliver within predictable timelines
 
 You can write well.
 
-The Problems.
+## The Problems.
 
 We are doing a problem-oriented assessment to make our analysis as objective as possible. Choose (at least) one of the below problems and attempt to solve it. 
 
