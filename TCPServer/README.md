@@ -1,11 +1,6 @@
 # TCP-Messaging
 Implements a basic tcp messaging system with one server and multiple clients
 
-
-### Time Taken
- - Preliminary Reading (2 hrs)
- - Implementation (11 hrs)
-
 ### Note
  - All commands are delimited by '~'
  - Development branch was not used since it was not required here
